@@ -9,9 +9,9 @@ Run
 Build  
 go build -o srvchk  
 One-time check  
-./srvchk -f hosts.txt -c 3  
+./main -f hosts.txt -c 3  
 Monitor mode  
-./srvchk -f hosts.txt -monitor  
+./main -f hosts.txt -monitor  
 Hosts file  
 
 One host per line:  
